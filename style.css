@@ -1,1 +1,98 @@
+  .img{
+    height: 150px;
+    width: auto;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #333; */
+  }
+  li {
+    float: left;
+    padding: 10px 10px;
+    margin-left: 50px;
+    
+    
+  }
+  li a:hover {
+    background-color: #040404;
+    color: white;
+    /* padding: 10px 10px; */
+    border-color: #040404;
+    border-radius: 10px;
+    
+    }
+li a {
+    display: block;
+    padding: 10px 10px;
+    color: rgb(7, 7, 7);
+    text-align: center;
+    text-decoration: none;
+    margin-right: 90px;
+    font-size: 1.5rem;
+  }
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .one img{
+    margin-left: 5%;
+    height: 600px;
+    width: 600px;
+  }
+  .Home{
+    display: flex;
+    margin-top: 50px;
+    height: 80vh;
+    width: auto;
 
+    
+  }
+  .one{
+    display: block;
+    margin-left: 50px;
+    height: auto;
+    width:45%
+    
+    
+  }
+  .two{
+    display: block;
+    margin-right: 50px;
+    padding: 100px;
+    height: auto;
+    width:45%;  
+    margin-top: 5%;
+
+  }
+  .two h1{
+    font-size: 3rem;
+
+  }
+  .about {
+    display: flex;
+    height: 80vh;
+    width: auto;
+    
+  }
+  .passion{
+    display: flex;
+    height: 80vh;
+    width: auto;
+    
+  }
+
+ .icon{
+  font-size: 100px;
+  
+ }
+ .icon i{
+  padding: 10px;
+ }
+body{
+  margin-left: 20px;
+  margin-right: 20px;
+}
