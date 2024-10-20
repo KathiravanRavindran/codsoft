@@ -2,6 +2,9 @@
     height: 150px;
     width: auto;
   }
+  html{
+    scroll-behavior: smooth;
+  }
   ul {
     list-style-type: none;
     margin: 0;
@@ -46,7 +49,7 @@ li a {
   .Home{
     display: flex;
     margin-top: 50px;
-    height: 80vh;
+    height: 100vh;
     width: auto;
 
     
@@ -74,13 +77,13 @@ li a {
   }
   .about {
     display: flex;
-    height: 80vh;
+    height: 100vh;
     width: auto;
     
   }
   .passion{
     display: flex;
-    height: 80vh;
+    height: 100vh;
     width: auto;
     
   }
